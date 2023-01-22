@@ -135,6 +135,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .services .icon-box p {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+ .services .icon-box p {
+margin-top: 10px
+}
+
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
